@@ -1,0 +1,20 @@
+{
+  "name": "webaudio-hammond",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Hammond B3 webaudio emulation",
+  "main": "index.js",
+  "scripts": {
+    "dist": "browserify index.js | uglifyjs > dist/hammond.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigb/webaudio-hammond.git"
+  },
+  "author": "danigb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/webaudio-hammond/issues"
+  },
+  "homepage": "https://github.com/danigb/webaudio-hammond#readme"
+}
